@@ -1,1 +1,1 @@
-- Crud em PHP com Bootstrap utilizando janela Modal para todas as Funcionalidades.
+- CRUD em PHP com Bootstrap utilizando janela Modal para todas as Funcionalidades, com função de Buscar incluida.
