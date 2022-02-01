@@ -1,1 +1,1 @@
-Crud em PHP com Bootstrap utilizando janela Modal para todas as Funcionalidades.
+- Crud em PHP com Bootstrap utilizando janela Modal para todas as Funcionalidades.
