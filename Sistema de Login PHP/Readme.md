@@ -14,9 +14,11 @@ Cadastro e Login em PHP utilizando PDO.
 # TABELA UTILIZADA MYSQL
 create database usuario;
 
+```sql
 create table usuarios(
     id integer primary key AUTO_INCREMENT,
     nome varchar(255) not null,
     email varchar(255) not null,
     senha varchar(225) not null
 );
+```
