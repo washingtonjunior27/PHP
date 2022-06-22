@@ -8,7 +8,7 @@
             $cmd = "SELECT * FROM usuarios WHERE email = :e AND senha = :s";
             $stmt = $pdo->prepare($cmd);
             $stmt->bindValue(":e", $email);
-            $stmt->bindValue(":s", $senha);
+            $stmt->bindValue(":s", md5($senha));
             $stmt->execute();
             if($stmt->rowCount() > 0){
                 $dados = $stmt->fetch();
