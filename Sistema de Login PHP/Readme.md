@@ -12,9 +12,9 @@ Cadastro e Login em PHP utilizando PDO.
 ![Screenshot](readme-imgs/home.png)
 
 # TABELA UTILIZADA MYSQL
+```sql
 create database usuario;
 
-```sql
 create table usuarios(
     id integer primary key AUTO_INCREMENT,
     nome varchar(255) not null,
