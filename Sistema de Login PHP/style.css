@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: crimson;
+}
+
+.form-control {
+    min-width: 300px;
+}
+
+.fa-user {
+    font-size: 60px;
+}
+
+#btn-login {
+    width: 100%;
+}
