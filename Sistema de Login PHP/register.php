@@ -18,7 +18,7 @@ if (isset($_POST['cadastrar'])) {
                 $stmt = $pdo->prepare($sql);
                 $stmt->bindValue(":n", $nome);
                 $stmt->bindValue(":e", $email);
-                $stmt->bindValue(":s", $senha);
+                $stmt->bindValue(":s", md5($senha));
                 $stmt->execute();
                 $sucess[] = "Usuário cadastrado com sucesso!";
             } else {
